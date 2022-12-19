@@ -14,7 +14,7 @@ const Navbar = () => {
                     <p>cart</p>
                     <p className='bg-white px-2 py-1 text-xs text-black rounded-full'>0</p>
                 </div>
-                <p className='btn btn-primary rounded-full'>Get Started</p>
+                <p className='btn btn-primary rounded-full text-white'>Get Started</p>
             </div>
         </div>
     </div>

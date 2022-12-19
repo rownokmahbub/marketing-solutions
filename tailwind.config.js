@@ -10,8 +10,8 @@ module.exports = {
       padding: {
         DEFAULT: "1rem",
         sm: "2rem",
-        lg: "6rem",
-        xl: "7rem",
+        lg: "8rem",
+        xl: "9rem",
         "2xl": "4rem",
       },
     },
@@ -35,12 +35,12 @@ module.exports = {
 
       colors: {
         bg: {
-          DEFAULT: "#ff5555",
+          DEFAULT: "#3D96F4",
           200: "#272727",
           300: "#2e2e2e",
         },
         primary: {
-          DEFAULT: "#ff5555",
+          DEFAULT: "#3D96F4",
           50: "#F7C6C6",
           100: "#F5B4B4",
           200: "#F09090",
@@ -58,10 +58,10 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        light: {
-          ...require("daisyui/src/colors/themes")["[data-theme=light]"],
-          primary: "#ff5555",
-          "primary-focus": "#E74848",
+        black: {
+          ...require("daisyui/src/colors/themes")["[data-theme=black]"],
+          primary: "#3D96F4",
+          "primary-focus": "#eca001",
         },
       },
     ],

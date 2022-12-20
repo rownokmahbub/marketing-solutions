@@ -1,10 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Blog from '../components/Blog'
 import Choose from '../components/Choose'
 import Company from '../components/Company'
+import Cta from '../components/Cta'
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Service from '../components/Service'
+import Testimonials from '../components/Testimonials'
 import Users from '../components/Users'
 
 
@@ -25,6 +29,10 @@ export default function Home() {
   <Service/>
   <Choose/>
   <Users/>
+  <Testimonials/>
+  <Blog/>
+  <Cta/>
+  <Footer/>
 
     </div>
   )
